@@ -126,11 +126,7 @@ int main(int argc, char **argv)
 
     printf("----Result----\n");
 
-    // while ((rc = recv(s, recv_buf, bufsz - 2, 0)) > 0)
-    // {
-    //     recv_buf[rc] = '\0';
-    //     printf("%s", recv_buf);
-    // }
+    // write file for 
     FILE *file = fopen("output.png", "wb");
     if (!file)
     {
@@ -139,9 +135,10 @@ int main(int argc, char **argv)
     }
 
     bool headerEnded = false;
-    int bytes_received;
-    while ((bytes_received = recv(s, recv_buf, sizeof(recv_buf), 0)) > 0)
+    while ((rc = recv(s, recv_buf, sizeof(recv_buf), 0)) > 0)
     {
+        recv_buf[rc] = '\0';
+        printf("%s", recv_buf);
         if (!headerEnded)
         {
             char *headerEnd = strstr(recv_buf, "\r\n\r\n");
@@ -149,13 +146,13 @@ int main(int argc, char **argv)
             {
                 headerEnd += 4;
                 int headerSize = headerEnd - recv_buf;
-                fwrite(headerEnd, 1, bytes_received - headerSize, file);
+                fwrite(headerEnd, 1, rc - headerSize, file);
                 headerEnded = true;
             }
         }
         else
         {
-            fwrite(recv_buf, 1, bytes_received, file);
+            fwrite(recv_buf, 1, rc, file);
         }
     }
 

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+  <head>
+    <title>Element-Selektor</title>
+    <style type="text/css">
+      body {
+        background-color: #ffffcc;
+        margin-left: 100px;
+      }
+      * {
+        color: blue;
+      }
+      h1 {
+        font-size: 300%;
+        color: #ff0000;
+        font-style: italic;
+        border-bottom: solid thin black;
+      }
+      p,
+      li {
+        font-size: 110%;
+        line-height: 140%;
+        font-family: Helvetica, Arial, sans-serif;
+        letter-spacing: 0.1em;
+        word-spacing: 0.3em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Big headline</h1>
+    <p>standard text line</p>
+    <ul>
+      <li>a list item</li>
+      <li>another list item</li>
+    </ul>
+  </body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+  <head>
+    <title>Klassen-Selektor</title>
+    <style type="text/css">
+      .beitrag {
+        border: 1px outset gray;
+        margin: 0.5em;
+        padding: 0.5em;
+        background-color: #efd;
+      }
+      .uebersetzung {
+        border-bottom: 1px dotted #900;
+      }
+      .autor {
+        font-style: italic;
+      }
+      .datum {
+        font-size: 80%;
+        color: #444;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="beitrag">
+      <p>Wo finde ich weitere Information über HTML?</p>
+      <p class="autor">Moritz Ratlos, <span class="datum">21.05.2006</span></p>
+    </div>
+    <div class="beitrag">
+      <p>
+        Beispielsweise in der
+        <a href="http://www.w3.org/TR/REC-html40/"
+          >HTML 4.01-
+          <span lang="en" title="Empfehlung" class="uebersetzung"
+            >Recommendation</span
+          ></a
+        >.
+      </p>
+      <p class="autor">Max Hilfreich, <span class="datum">22.05.2006</span></p>
+    </div>
+    <div class="beitrag">
+      <p>
+        Vielen Dank für den
+        <span lang="en" title="Verweis" class="uebersetzung">Link!</span>
+      </p>
+      <p class="autor">Moritz Ratlos, <span class="datum">22.05.2006</span></p>
+    </div>
+  </body>
+</html>
