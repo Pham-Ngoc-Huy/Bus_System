@@ -79,6 +79,13 @@ int main(int argc, char** argv)
     else
         host=url;
 
+    char *port_str = strchr(host, ':');
+    if (port_str) {
+        *port_str = '\0'; 
+        port_str++;    
+        addr.sin_port = htons(atoi(port_str)); 
+    }
+
     if((site=strchr(host,'/'))!=0)
         *site++='\0';
     else

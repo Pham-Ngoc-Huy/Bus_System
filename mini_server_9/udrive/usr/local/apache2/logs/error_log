@@ -1,0 +1,31 @@
+[Sat Mar 01 11:36:59 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sat Mar 01 11:36:59 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sat Mar 01 11:36:59 2025] [notice] Parent: Created child process 20344
+[Sat Mar 01 11:36:59 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sat Mar 01 11:36:59 2025] [notice] Child 20344: Child process is running
+[Sat Mar 01 11:36:59 2025] [debug] mpm_winnt.c(408): Child 20344: Retrieved our scoreboard from the parent.
+[Sat Mar 01 11:36:59 2025] [info] Parent: Duplicating socket 1632 and sending it to child process 20344
+[Sat Mar 01 11:36:59 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 20344
+[Sat Mar 01 11:36:59 2025] [debug] mpm_winnt.c(564): Child 20344: retrieved 1 listeners from parent
+[Sat Mar 01 11:36:59 2025] [notice] Child 20344: Acquired the start mutex.
+[Sat Mar 01 11:36:59 2025] [notice] Child 20344: Starting 64 worker threads.
+[Sat Mar 01 11:36:59 2025] [notice] Child 20344: Starting thread to listen on port 80.
+[Sat Mar 01 11:38:56 2025] [error] [client 172.19.129.59] (20024)The given path is misformatted or contained invalid characters: Cannot map GET /"download HTTP/1.1 to file
+[Sat Mar 01 11:39:13 2025] [error] [client 172.19.129.59] File does not exist: Z:/www/download
+[Sat Mar 01 11:40:05 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sat Mar 01 11:40:05 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sat Mar 01 11:40:05 2025] [notice] Parent: Created child process 23744
+[Sat Mar 01 11:40:05 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sat Mar 01 11:40:05 2025] [notice] Child 23744: Child process is running
+[Sat Mar 01 11:40:05 2025] [debug] mpm_winnt.c(408): Child 23744: Retrieved our scoreboard from the parent.
+[Sat Mar 01 11:40:05 2025] [info] Parent: Duplicating socket 1708 and sending it to child process 23744
+[Sat Mar 01 11:40:05 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 23744
+[Sat Mar 01 11:40:05 2025] [debug] mpm_winnt.c(564): Child 23744: retrieved 1 listeners from parent
+[Sat Mar 01 11:40:05 2025] [notice] Child 23744: Acquired the start mutex.
+[Sat Mar 01 11:40:05 2025] [notice] Child 23744: Starting 64 worker threads.
+[Sat Mar 01 11:40:05 2025] [notice] Child 23744: Starting thread to listen on port 80.
+[Sat Mar 01 11:41:01 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/download (1).jpg, referer: http://localhost/
+[Sat Mar 01 11:47:32 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sat Mar 01 11:47:32 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sat Mar 01 11:47:32 2025] [notice] Parent: Created child process 3460
+[Sat Mar 01 11:47:32 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
