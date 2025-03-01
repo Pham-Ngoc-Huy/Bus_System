@@ -29,3 +29,117 @@
 [Sat Mar 01 11:47:32 2025] [notice] Server built: Jun 13 2008 04:04:59
 [Sat Mar 01 11:47:32 2025] [notice] Parent: Created child process 3460
 [Sat Mar 01 11:47:32 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sat Mar 01 11:47:32 2025] [notice] Child 3460: Child process is running
+[Sat Mar 01 11:47:32 2025] [debug] mpm_winnt.c(408): Child 3460: Retrieved our scoreboard from the parent.
+[Sat Mar 01 11:47:32 2025] [info] Parent: Duplicating socket 1696 and sending it to child process 3460
+[Sat Mar 01 11:47:32 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 3460
+[Sat Mar 01 11:47:32 2025] [debug] mpm_winnt.c(564): Child 3460: retrieved 1 listeners from parent
+[Sat Mar 01 11:47:32 2025] [notice] Child 3460: Acquired the start mutex.
+[Sat Mar 01 11:47:32 2025] [notice] Child 3460: Starting 64 worker threads.
+[Sat Mar 01 11:47:32 2025] [notice] Child 3460: Starting thread to listen on port 80.
+[Sat Mar 01 11:49:46 2025] [error] [client 127.0.0.1] Premature end of script headers: hello_world.pl
+[Sat Mar 01 11:49:46 2025] [error] [client 127.0.0.1] Bareword found where operator expected at Z:/cgi-bin/hello_world.pl line 13, near "<TITLE>H"
+[Sat Mar 01 11:49:46 2025] [error] [client 127.0.0.1] \t(Missing operator before H?)
+[Sat Mar 01 11:49:46 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/hello_world.pl line 13, near "HEAD>"
+[Sat Mar 01 11:49:46 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/hello_world.pl aborted due to compilation errors.
+[Sat Mar 01 11:50:07 2025] [error] [client 127.0.0.1] Premature end of script headers: hello_world.pl
+[Sat Mar 01 11:50:07 2025] [error] [client 127.0.0.1] Bareword found where operator expected at Z:/cgi-bin/hello_world.pl line 13, near "<TITLE>H"
+[Sat Mar 01 11:50:07 2025] [error] [client 127.0.0.1] \t(Missing operator before H?)
+[Sat Mar 01 11:50:07 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/hello_world.pl line 13, near "HEAD>"
+[Sat Mar 01 11:50:07 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/hello_world.pl aborted due to compilation errors.
+[Sat Mar 01 11:58:58 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/usr
+[Sat Mar 01 11:59:35 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 11:59:35 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:31:56 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:31:56 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:44 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:44 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:55 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:55 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:56 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:56 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:56 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:56 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:56 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:56 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:57 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:58 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:58 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:58 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:58 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:59 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:59 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:59 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:59 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:59 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:34:59 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:35:08 2025] [error] [client 127.0.0.1] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:35:08 2025] [error] [client 127.0.0.1] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:35:14 2025] [error] [client 172.19.129.59] Use of uninitialized value $name in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 13:35:14 2025] [error] [client 172.19.129.59] Use of uninitialized value $text in concatenation (.) or string at Z:/cgi-bin/comments.pl line 14.
+[Sat Mar 01 14:14:48 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 12., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 14:18:28 2025] [error] [client 127.0.0.1] Z:/cgi-bin/comments.py is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 14:18:28 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/comments.py, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 14:30:39 2025] [error] [client 127.0.0.1] (OS 193)%1 is not a valid Win32 application.  : couldn't create child process: 720193: comments.py, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 14:30:39 2025] [error] [client 127.0.0.1] (OS 193)%1 is not a valid Win32 application.  : couldn't spawn child process: Z:/cgi-bin/comments.py, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 14:47:54 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/form.html, referer: http://localhost/index.html
+[Sat Mar 01 14:48:10 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/form.html, referer: http://localhost/index.html
+[Sat Mar 01 14:48:13 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/form.html, referer: http://localhost/index.html
+[Sat Mar 01 14:48:16 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/form.html, referer: http://localhost/index.html
+[Sat Mar 01 14:48:46 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/form.html, referer: http://localhost/index.html
+[Sat Mar 01 14:48:58 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/mnt, referer: http://localhost/index.html
+[Sat Mar 01 14:49:43 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 14:50:06 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:48:47 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:48:47 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:48:47 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:48:47 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:49:38 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:49:38 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:49:38 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:49:38 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:50:55 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:50:55 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:50:55 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:50:55 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:50:58 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:50:58 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:50:58 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:50:58 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:51:38 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sat Mar 01 15:51:38 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sat Mar 01 15:51:38 2025] [notice] Parent: Created child process 16312
+[Sat Mar 01 15:51:38 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sat Mar 01 15:51:38 2025] [notice] Child 16312: Child process is running
+[Sat Mar 01 15:51:38 2025] [debug] mpm_winnt.c(408): Child 16312: Retrieved our scoreboard from the parent.
+[Sat Mar 01 15:51:38 2025] [info] Parent: Duplicating socket 1680 and sending it to child process 16312
+[Sat Mar 01 15:51:38 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 16312
+[Sat Mar 01 15:51:38 2025] [debug] mpm_winnt.c(564): Child 16312: retrieved 1 listeners from parent
+[Sat Mar 01 15:51:38 2025] [notice] Child 16312: Acquired the start mutex.
+[Sat Mar 01 15:51:38 2025] [notice] Child 16312: Starting 64 worker threads.
+[Sat Mar 01 15:51:38 2025] [notice] Child 16312: Starting thread to listen on port 80.
+[Sat Mar 01 15:51:42 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:51:42 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:51:42 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:51:42 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:51:50 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:51:50 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:51:50 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:51:50 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:52:53 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:52:53 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:52:53 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:52:53 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:53:24 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:53:24 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:53:24 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
+[Sat Mar 01 15:53:24 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
