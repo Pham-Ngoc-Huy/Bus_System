@@ -15,5 +15,3 @@ print $fh "$x,$y\n";
 close($fh);
 
 print $q->redirect("/demo_form/form.html");
-
-exit();

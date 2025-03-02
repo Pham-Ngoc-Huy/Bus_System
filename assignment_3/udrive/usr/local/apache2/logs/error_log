@@ -299,3 +299,45 @@
 [Sun Mar 02 15:13:03 2025] [notice] Server built: Jun 13 2008 04:04:59
 [Sun Mar 02 15:13:03 2025] [notice] Parent: Created child process 39716
 [Sun Mar 02 15:13:03 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 02 15:13:03 2025] [notice] Child 39716: Child process is running
+[Sun Mar 02 15:13:03 2025] [debug] mpm_winnt.c(408): Child 39716: Retrieved our scoreboard from the parent.
+[Sun Mar 02 15:13:03 2025] [info] Parent: Duplicating socket 1688 and sending it to child process 39716
+[Sun Mar 02 15:13:03 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 39716
+[Sun Mar 02 15:13:03 2025] [debug] mpm_winnt.c(564): Child 39716: retrieved 1 listeners from parent
+[Sun Mar 02 15:13:03 2025] [notice] Child 39716: Acquired the start mutex.
+[Sun Mar 02 15:13:03 2025] [notice] Child 39716: Starting 64 worker threads.
+[Sun Mar 02 15:13:03 2025] [notice] Child 39716: Starting thread to listen on port 80.
+[Sun Mar 02 15:18:58 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:18:58 2025] [error] [client 127.0.0.1] Global symbol "$x" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:18:58 2025] [error] [client 127.0.0.1] Global symbol "$y" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:18:58 2025] [error] [client 127.0.0.1] No such class filename at Z:/cgi-bin/comments.pl line 21, near "my filename", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:18:58 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 21, near "my filename=", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:18:58 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:08 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:08 2025] [error] [client 127.0.0.1] Global symbol "$x" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:08 2025] [error] [client 127.0.0.1] Global symbol "$y" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:08 2025] [error] [client 127.0.0.1] No such class filename at Z:/cgi-bin/comments.pl line 21, near "my filename", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:08 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 21, near "my filename=", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:08 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:12 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:12 2025] [error] [client 127.0.0.1] Global symbol "$x" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:12 2025] [error] [client 127.0.0.1] Global symbol "$y" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:12 2025] [error] [client 127.0.0.1] No such class filename at Z:/cgi-bin/comments.pl line 21, near "my filename", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:12 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 21, near "my filename=", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:12 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:16 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:16 2025] [error] [client 127.0.0.1] Global symbol "$x" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:16 2025] [error] [client 127.0.0.1] Global symbol "$y" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:16 2025] [error] [client 127.0.0.1] No such class filename at Z:/cgi-bin/comments.pl line 21, near "my filename", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:16 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 21, near "my filename=", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:16 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:21 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:21 2025] [error] [client 127.0.0.1] Global symbol "$x" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:21 2025] [error] [client 127.0.0.1] Global symbol "$y" requires explicit package name at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:21 2025] [error] [client 127.0.0.1] No such class filename at Z:/cgi-bin/comments.pl line 21, near "my filename", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:21 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 21, near "my filename=", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:19:21 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:21:36 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:21:36 2025] [error] [client 127.0.0.1] No such class filename at Z:/cgi-bin/comments.pl line 21, near "my filename", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:21:36 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 21, near "my filename=", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:21:36 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html

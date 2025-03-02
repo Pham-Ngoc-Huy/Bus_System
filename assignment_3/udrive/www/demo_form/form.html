@@ -64,14 +64,6 @@
             transform: translateY(-2px);
         }
     </style>
-    <script language='Javascript'>
-      function ClearFile(objid){
-        var ip=document.testForm[objid];
-        var ipn=ip.cloneNode(false);
-        ip.parentNode.insertBefore(ipn,ip);
-        ip.parentNode.removeChild(ip);
-       }
-    </script>
 </head>
 <body>
     <h1>Input Follow: <b>y = a + bx</b></h1>
@@ -82,8 +74,6 @@
             <input type="number" id="xValue" name="x" required>
             <label for="yValue">y:</label>
             <input type="number" id="yValue" name="y" required>
-            <!-- <input type="Button" name="cmdClear" onclick="ClearFile('/demo/data.txt')" value="Clear">
-            <input type="reset" value="clear"> -->
             <button type="submit" class="button-19">Add-in</button>
         </form>
 
