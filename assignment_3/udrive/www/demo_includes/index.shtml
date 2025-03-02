@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Demo Includes</title>
+</head >
+<body>
+<p><b>1) Date and time:</b> <!--#echo var="DATE_LOCAL" --> </p>
+<p><b>2) Big text </b> - file cgi-bin/demo_includes_page/big_text.pl:</p>
+<!--#exec cgi="/cgi-bin/demo_includes_page/big_text.pl"-->
+
+
+<p><b>3) Random text:</b> - Refresh your browser:</p>
+<!--#include virtual="/cgi-bin/demo_includes_page/random_text.pl" -->
+<p><b><i>Note: View page source in your browser!!!</i></b></p>
+<p><a href="../index.html">Home</a></p>
+</body>
+</html>

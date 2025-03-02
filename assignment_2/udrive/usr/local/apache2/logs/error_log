@@ -143,3 +143,28 @@
 [Sat Mar 01 15:53:24 2025] [error] [client 127.0.0.1] "my" variable $q masks earlier declaration in same scope at Z:/cgi-bin/comments.pl line 11., referer: http://localhost/demo_form/form.html
 [Sat Mar 01 15:53:24 2025] [error] [client 127.0.0.1] Global symbol "$commentText" requires explicit package name at Z:/cgi-bin/comments.pl line 23., referer: http://localhost/demo_form/form.html
 [Sat Mar 01 15:53:24 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 09:43:38 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 02 09:43:38 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 02 09:43:38 2025] [notice] Parent: Created child process 31236
+[Sun Mar 02 09:43:38 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 02 09:43:39 2025] [notice] Child 31236: Child process is running
+[Sun Mar 02 09:43:39 2025] [debug] mpm_winnt.c(408): Child 31236: Retrieved our scoreboard from the parent.
+[Sun Mar 02 09:43:39 2025] [info] Parent: Duplicating socket 1696 and sending it to child process 31236
+[Sun Mar 02 09:43:39 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 31236
+[Sun Mar 02 09:43:39 2025] [debug] mpm_winnt.c(564): Child 31236: retrieved 1 listeners from parent
+[Sun Mar 02 09:43:39 2025] [notice] Child 31236: Acquired the start mutex.
+[Sun Mar 02 09:43:39 2025] [notice] Child 31236: Starting 64 worker threads.
+[Sun Mar 02 09:43:39 2025] [notice] Child 31236: Starting thread to listen on port 80.
+[Sun Mar 02 09:46:43 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 02 09:46:43 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 02 09:46:43 2025] [notice] Parent: Created child process 33864
+[Sun Mar 02 09:46:43 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 02 09:46:43 2025] [notice] Child 33864: Child process is running
+[Sun Mar 02 09:46:43 2025] [debug] mpm_winnt.c(408): Child 33864: Retrieved our scoreboard from the parent.
+[Sun Mar 02 09:46:43 2025] [info] Parent: Duplicating socket 1732 and sending it to child process 33864
+[Sun Mar 02 09:46:43 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 33864
+[Sun Mar 02 09:46:43 2025] [debug] mpm_winnt.c(564): Child 33864: retrieved 1 listeners from parent
+[Sun Mar 02 09:46:43 2025] [notice] Child 33864: Acquired the start mutex.
+[Sun Mar 02 09:46:43 2025] [notice] Child 33864: Starting 64 worker threads.
+[Sun Mar 02 09:46:43 2025] [notice] Child 33864: Starting thread to listen on port 80.
+[Sun Mar 02 09:46:47 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/download (1).jpg, referer: http://localhost/
