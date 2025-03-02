@@ -155,3 +155,147 @@
 [Sun Mar 02 09:43:39 2025] [notice] Child 31236: Acquired the start mutex.
 [Sun Mar 02 09:43:39 2025] [notice] Child 31236: Starting 64 worker threads.
 [Sun Mar 02 09:43:39 2025] [notice] Child 31236: Starting thread to listen on port 80.
+[Sun Mar 02 10:08:20 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 02 10:08:20 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 02 10:08:20 2025] [notice] Parent: Created child process 40964
+[Sun Mar 02 10:08:20 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 02 10:08:20 2025] [notice] Child 40964: Child process is running
+[Sun Mar 02 10:08:20 2025] [debug] mpm_winnt.c(408): Child 40964: Retrieved our scoreboard from the parent.
+[Sun Mar 02 10:08:20 2025] [info] Parent: Duplicating socket 1688 and sending it to child process 40964
+[Sun Mar 02 10:08:20 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 40964
+[Sun Mar 02 10:08:20 2025] [debug] mpm_winnt.c(564): Child 40964: retrieved 1 listeners from parent
+[Sun Mar 02 10:08:20 2025] [notice] Child 40964: Acquired the start mutex.
+[Sun Mar 02 10:08:20 2025] [notice] Child 40964: Starting 64 worker threads.
+[Sun Mar 02 10:08:20 2025] [notice] Child 40964: Starting thread to listen on port 80.
+[Sun Mar 02 10:08:24 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/download (1).jpg, referer: http://localhost/
+[Sun Mar 02 10:10:16 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/download (1).jpg, referer: http://localhost/
+[Sun Mar 02 10:11:02 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 02 10:11:02 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 02 10:11:02 2025] [notice] Parent: Created child process 42168
+[Sun Mar 02 10:11:02 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 02 10:11:02 2025] [notice] Child 42168: Child process is running
+[Sun Mar 02 10:11:02 2025] [debug] mpm_winnt.c(408): Child 42168: Retrieved our scoreboard from the parent.
+[Sun Mar 02 10:11:02 2025] [info] Parent: Duplicating socket 1704 and sending it to child process 42168
+[Sun Mar 02 10:11:02 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 42168
+[Sun Mar 02 10:11:02 2025] [debug] mpm_winnt.c(564): Child 42168: retrieved 1 listeners from parent
+[Sun Mar 02 10:11:02 2025] [notice] Child 42168: Acquired the start mutex.
+[Sun Mar 02 10:11:02 2025] [notice] Child 42168: Starting 64 worker threads.
+[Sun Mar 02 10:11:02 2025] [notice] Child 42168: Starting thread to listen on port 80.
+[Sun Mar 02 11:06:27 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/demo_form/background_image.jpg, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 12:04:17 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 12:05:21 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 12:06:07 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 12:06:07 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 18, near "my ", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 12:06:07 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 18., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 12:06:07 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 19., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 12:06:07 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 19., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 12:06:07 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:07:24 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:07:24 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 18, near "my ", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:07:24 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 18., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:07:24 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 19., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:07:24 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 19., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:07:24 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:26 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:26 2025] [error] [client 127.0.0.1] Can't locate File/Spec.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/usr/lib/CGI/Carp.pm line 318., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:26 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/usr/lib/CGI/Carp.pm line 318., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:26 2025] [error] [client 127.0.0.1] Compilation failed in require at Z:/cgi-bin/comments.pl line 5., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:26 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 5., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:34 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:34 2025] [error] [client 127.0.0.1] Can't locate File/Spec.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/usr/lib/CGI/Carp.pm line 318., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:34 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/usr/lib/CGI/Carp.pm line 318., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:34 2025] [error] [client 127.0.0.1] Compilation failed in require at Z:/cgi-bin/comments.pl line 5., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:13:34 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 5., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:14:26 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/form.html, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:22:09 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:22:09 2025] [error] [client 127.0.0.1] Can't locate feature.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:22:09 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:25:47 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/demo_form/data.csv, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:26:38 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/demo_form/data.csv, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:27:24 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/demo_form/data.csv, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:27:35 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/data.csv, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:27:50 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.csv is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:27:50 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.csv, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:28:50 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:28:50 2025] [error] [client 127.0.0.1] Can't locate feature.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:28:50 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:29:10 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.csv is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:29:10 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.csv, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:29:40 2025] [error] [client 127.0.0.1] script not found or unable to stat: Z:/cgi-bin/data.csv, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:29:49 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:29:49 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:30:10 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:30:10 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:30:24 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:30:24 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:30:44 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:30:44 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:30:52 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:30:52 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:31:25 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:31:25 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:31:29 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:31:29 2025] [error] [client 127.0.0.1] Can't locate feature.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:31:29 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:32:17 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:32:17 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:33:53 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:34:21 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:34:21 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:35:50 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:35:50 2025] [error] [client 127.0.0.1] Can't locate feature.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:35:50 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:36:19 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:36:19 2025] [error] [client 127.0.0.1] Can't locate feature.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:36:19 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:37:08 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/demo_form/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:37:26 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:37:33 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:37:33 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:39:11 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:39:11 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:39:47 2025] [error] [client 127.0.0.1] Z:/cgi-bin/data.txt is not executable; ensure interpreted scripts have "#!" first line, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:39:47 2025] [error] [client 127.0.0.1] (9)Bad file descriptor: don't know how to spawn child process: Z:/cgi-bin/data.txt, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:40:33 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:40:33 2025] [error] [client 127.0.0.1] Can't locate JSON.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:40:33 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:40:50 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:40:50 2025] [error] [client 127.0.0.1] Can't locate JSON.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:40:50 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:41:21 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:41:21 2025] [error] [client 127.0.0.1] Can't locate feature.pm in @INC (@INC contains: Z:/usr/lib .) at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:41:21 2025] [error] [client 127.0.0.1] BEGIN failed--compilation aborted at Z:/cgi-bin/comments.pl line 6., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:41:40 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:42:10 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:42:10 2025] [error] [client 127.0.0.1] syntax error at Z:/cgi-bin/comments.pl line 18, near "my ", referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:42:10 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 18., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:42:10 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 19., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:42:10 2025] [error] [client 127.0.0.1] Global symbol "$filename" requires explicit package name at Z:/cgi-bin/comments.pl line 19., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:42:10 2025] [error] [client 127.0.0.1] Execution of Z:/cgi-bin/comments.pl aborted due to compilation errors., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:42:41 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/form.html, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:42:45 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/form.html, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:44:11 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:44:11 2025] [error] [client 127.0.0.1] Could not open file '/demo_form/data.txt': No such file or directory at Z:/cgi-bin/comments.pl line 13., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:50:39 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:50:39 2025] [error] [client 127.0.0.1] Can't locate object method "new" via package "CGI" (perhaps you forgot to load "CGI"?) at Z:/cgi-bin/comments.pl line 6.\r, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:50:57 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 02 13:50:57 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 02 13:50:57 2025] [notice] Parent: Created child process 45116
+[Sun Mar 02 13:50:57 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 02 13:50:57 2025] [notice] Child 45116: Child process is running
+[Sun Mar 02 13:50:57 2025] [debug] mpm_winnt.c(408): Child 45116: Retrieved our scoreboard from the parent.
+[Sun Mar 02 13:50:57 2025] [info] Parent: Duplicating socket 1704 and sending it to child process 45116
+[Sun Mar 02 13:50:57 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 45116
+[Sun Mar 02 13:50:57 2025] [debug] mpm_winnt.c(564): Child 45116: retrieved 1 listeners from parent
+[Sun Mar 02 13:50:57 2025] [notice] Child 45116: Acquired the start mutex.
+[Sun Mar 02 13:50:57 2025] [notice] Child 45116: Starting 64 worker threads.
+[Sun Mar 02 13:50:57 2025] [notice] Child 45116: Starting thread to listen on port 80.
+[Sun Mar 02 13:52:38 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 13:52:38 2025] [error] [client 127.0.0.1] Can't locate object method "new" via package "CGI" (perhaps you forgot to load "CGI"?) at Z:/cgi-bin/comments.pl line 6.\r, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 14:06:54 2025] [error] [client 127.0.0.1] Premature end of script headers: comments.pl, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 14:06:54 2025] [error] [client 127.0.0.1] Could not open file '/demo_form/data.txt': No such file or directory at Z:/cgi-bin/comments.pl line 14., referer: http://localhost/demo_form/form.html
+[Sun Mar 02 14:10:51 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/www, referer: http://localhost/demo_form/form.html
+[Sun Mar 02 15:13:03 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 02 15:13:03 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 02 15:13:03 2025] [notice] Parent: Created child process 39716
+[Sun Mar 02 15:13:03 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child

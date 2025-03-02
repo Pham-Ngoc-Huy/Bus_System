@@ -4,34 +4,16 @@ use strict;
 use warnings;
 use CGI;
 
-# create CGI
 my $q = CGI->new;
 
-# Lấy dữ liệu từ form
-my $username    = $q->param("UserName");
-my $commentText = $q->param("CommentText");
+my $x = $q->param("x");
+my $y = $q->param("y");
 
-# format the data
-my $entry = "Name: $username\nComment: $commentText\n------------------------\n";
+my $filename = "/www/demo_form/data.txt";
+open(my $fh, '>>', $filename);
+print $fh "$x,$y\n";
+close($fh);
 
-# record in data.txt
-my $filename = "data.txt";
-open(my $fh, '>>', $filename) or die "Could not open file '$filename' $!";
-print $fh $entry;
-close $fh;
+print $q->redirect("/demo_form/form.html");
 
-# response screen
-print $q->header('text/html');
-print <<HTML;
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Comment Submitted</title>
-</head>
-<body bgcolor="#E0E0E0">
-    <h1>Thank You!</h1>
-    <p>Your comment has been recorded.</p>
-    <a href="/index.html">Back to home</a>
-</body>
-</html>
-HTML
+exit();
