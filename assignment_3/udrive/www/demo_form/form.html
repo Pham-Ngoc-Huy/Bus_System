@@ -22,14 +22,14 @@
         .container {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: left;
             gap: 20px;
         }
 
         table {
             font-family: "Courier New", monospace;
             color: whitesmoke;
-            background-color: gray ;
+            background-color: gray;
             border: 1px solid white;
             width: 300px;
             text-align: center;
@@ -41,7 +41,7 @@
             border: 1px solid whitesmoke;
         }
         th {
-          background-color: #1899d6;
+            background-color: #1899d6;
         }
 
         .button-19 {
@@ -63,6 +63,14 @@
             box-shadow: 0 2px #0c4e75;
             transform: translateY(-2px);
         }
+
+        #regressionResults {
+            margin-top: 20px;
+            font-size: 18px;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -77,7 +85,14 @@
             <button type="submit" class="button-19">Add-in</button>
         </form>
 
+        <form action="/cgi-bin/uploadnread.pl" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".txt">
+            <input type="submit" class="button-19" value="Upload & Read">
+        </form>
+
         <div id="tableContainer"></div>
+
+        <div id="regressionResults"></div>
 
         <div>
             <a href="/index.html" class="button-19">HomePage</a>
@@ -85,39 +100,50 @@
     </div>
 
     <script>
+
         function loadTable() {
-            fetch("/demo_form/data.txt")
+            fetch("/cgi-bin/comments.pl")
                 .then(response => response.text())
                 .then(data => {
-                    let rows = data.trim().split("\n");
-                    let tableHTML = '<table border="1"><tr><th>Value X</th><th>Value Y</th></tr>';
-                    rows.forEach(row => {
-                        let cols = row.split(",");
-                        tableHTML += `<tr><td>${cols[0]}</td><td>${cols[1]}</td></tr>`;
-                    });
-                    tableHTML += '</table>';
-                    document.getElementById('tableContainer').innerHTML = tableHTML;
+                    document.getElementById('tableContainer').innerHTML = `<h3>Data Table:</h3><pre>${data}</pre>`;
                 })
                 .catch(error => console.error("Error loading table:", error));
         }
-        function SubmitForm(event){
-              event.preventDefault();
-
-              let formData = new FormData(event.target);
-              fetch("/cgi-bin/comments.pl", {
-                  method: "POST",
-                  body: formData
-              })
-              .then(response => response.text())
-              .then(() => {
-                  loadTable();
-                  document.getElementById("xValue").value = "";
-                  document.getElementById("yValue").value = "";
-              })
-              .catch(error => console.error("Error submitting form:", error));
+              
+        function loadRegressionResults() {
+            fetch("/cgi-bin/regression_calculation.pl")
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("regressionResults").innerHTML = `<h3>Regression Result:</h3><pre>${data}</pre>`;
+                })
+                .catch(error => console.error("Error fetching regression results:", error));
         }
+
+        //add-in file data.txt
+
+        function SubmitForm(event) {
+            event.preventDefault();
+
+            let formData = new FormData(event.target);
+            fetch("/cgi-bin/comments.pl", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.text())
+            .then(() => {
+                loadTable();
+                loadRegressionResults();
+                document.getElementById("xValue").value = "";
+                document.getElementById("yValue").value = "";
+            })
+            .catch(error => console.error("Error submitting form:", error));
+        }
+
         document.getElementById("inputForm").addEventListener("submit", SubmitForm);
-        window.onload = loadTable;
+        window.onload = function() {
+            loadTable();
+            loadRegressionResults();
+        };
     </script>
 </body>
 </html>
