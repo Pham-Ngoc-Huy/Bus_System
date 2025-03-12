@@ -1,22 +1,35 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-use CGI;
 
-my $q = CGI->new;
-print $q->header(-type => "text/html", -charset => "UTF-8");
+print "Content-type: text/html\n\n";
 
-my $x = $q->param("x");
-my $y = $q->param("y");
+my $gnuplot_path = "C:\\Users\\Huy.PhamN1\\Desktop\\BusSystem\\assignment_3\\udrive\\www\\GNU\\gnuplot\\bin\\gnuplot.exe";
+my $gnuplot_script = "/www/demo_form/plot_script.plt";
+my $output_png = "/www/demo_form/plot.png";
 
-my $data_file = "/www/demo_form/data.txt";
-my $graph_file = "/www/demo_form/plot.png";
+my $params_file = "/www/demo_form/params.txt";
+open(my $pf, '<', $params_file) or die "Cannot read $params_file: $!";
+my $a = <$pf>;
+my $b = <$pf>;
+chomp($a, $b);
+close($pf);
 
-my $a = 1;  
-my $b = 0;  
+open my $gp, '>', $gnuplot_script or die "Cannot open $gnuplot_script: $!";
+print $gp "set terminal png\n";
+print $gp "set output '$output_png'\n";
+print $gp "set title 'Regression Line: y = $a + $b*x'\n";
+print $gp "set xlabel 'X-axis'\n";
+print $gp "set ylabel 'Y-axis'\n";
+print $gp "plot $a + $b*x with lines title 'y = $a + $b*x'\n";
+close $gp;
 
-# Gọi Gnuplot để vẽ đồ thị
-open (my $gnuplot, "/www/GNU/gnuplot/bin/gnuplot.exe");
-print $gnuplot <<EOF;
-plot 12*x + 13 
-EOF
+system("\"$gnuplot_path\" \"$gnuplot_script\"") == 0 or die "Failed to run Gnuplot: $!";
+
+print "Content-type: image/png\n\n";
+my $output_png = "/www/demo_form/plot.png"; 
+
+print "<html><body>";
+print "<h3>Regression Line: y = $a + $b*x</h3>";
+print "<img src='/cgi-bin/plot_display.pl' alt='Regression Plot'>";
+print "</body></html>";

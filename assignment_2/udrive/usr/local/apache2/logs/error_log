@@ -168,3 +168,75 @@
 [Sun Mar 02 09:46:43 2025] [notice] Child 33864: Starting 64 worker threads.
 [Sun Mar 02 09:46:43 2025] [notice] Child 33864: Starting thread to listen on port 80.
 [Sun Mar 02 09:46:47 2025] [error] [client 127.0.0.1] File does not exist: Z:/www/download (1).jpg, referer: http://localhost/
+[Sun Mar 09 18:35:17 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 09 18:35:17 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 09 18:35:17 2025] [notice] Parent: Created child process 21408
+[Sun Mar 09 18:35:17 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 09 18:35:17 2025] [notice] Child 21408: Child process is running
+[Sun Mar 09 18:35:17 2025] [debug] mpm_winnt.c(408): Child 21408: Retrieved our scoreboard from the parent.
+[Sun Mar 09 18:35:17 2025] [info] Parent: Duplicating socket 1692 and sending it to child process 21408
+[Sun Mar 09 18:35:17 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 21408
+[Sun Mar 09 18:35:17 2025] [debug] mpm_winnt.c(564): Child 21408: retrieved 1 listeners from parent
+[Sun Mar 09 18:35:17 2025] [notice] Child 21408: Acquired the start mutex.
+[Sun Mar 09 18:35:17 2025] [notice] Child 21408: Starting 64 worker threads.
+[Sun Mar 09 18:35:17 2025] [notice] Child 21408: Starting thread to listen on port 80.
+[Sun Mar 09 18:49:55 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 09 18:49:55 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 09 18:49:55 2025] [notice] Parent: Created child process 22620
+[Sun Mar 09 18:49:55 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 09 18:49:55 2025] [notice] Child 22620: Child process is running
+[Sun Mar 09 18:49:55 2025] [debug] mpm_winnt.c(408): Child 22620: Retrieved our scoreboard from the parent.
+[Sun Mar 09 18:49:55 2025] [info] Parent: Duplicating socket 1752 and sending it to child process 22620
+[Sun Mar 09 18:49:55 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 22620
+[Sun Mar 09 18:49:55 2025] [debug] mpm_winnt.c(564): Child 22620: retrieved 1 listeners from parent
+[Sun Mar 09 18:49:55 2025] [notice] Child 22620: Acquired the start mutex.
+[Sun Mar 09 18:49:55 2025] [notice] Child 22620: Starting 64 worker threads.
+[Sun Mar 09 18:49:55 2025] [notice] Child 22620: Starting thread to listen on port 80.
+[Sun Mar 09 18:52:41 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 09 18:52:41 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 09 18:52:41 2025] [notice] Parent: Created child process 21844
+[Sun Mar 09 18:52:41 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 09 18:52:41 2025] [notice] Child 21844: Child process is running
+[Sun Mar 09 18:52:41 2025] [debug] mpm_winnt.c(408): Child 21844: Retrieved our scoreboard from the parent.
+[Sun Mar 09 18:52:41 2025] [info] Parent: Duplicating socket 1728 and sending it to child process 21844
+[Sun Mar 09 18:52:41 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 21844
+[Sun Mar 09 18:52:41 2025] [debug] mpm_winnt.c(564): Child 21844: retrieved 1 listeners from parent
+[Sun Mar 09 18:52:41 2025] [notice] Child 21844: Acquired the start mutex.
+[Sun Mar 09 18:52:41 2025] [notice] Child 21844: Starting 64 worker threads.
+[Sun Mar 09 18:52:41 2025] [notice] Child 21844: Starting thread to listen on port 80.
+[Sun Mar 09 18:58:10 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 09 18:58:10 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 09 18:58:10 2025] [notice] Parent: Created child process 14492
+[Sun Mar 09 18:58:10 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 09 18:58:10 2025] [notice] Child 14492: Child process is running
+[Sun Mar 09 18:58:10 2025] [info] Parent: Duplicating socket 1612 and sending it to child process 14492
+[Sun Mar 09 18:58:10 2025] [debug] mpm_winnt.c(408): Child 14492: Retrieved our scoreboard from the parent.
+[Sun Mar 09 18:58:10 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 14492
+[Sun Mar 09 18:58:10 2025] [debug] mpm_winnt.c(564): Child 14492: retrieved 1 listeners from parent
+[Sun Mar 09 18:58:10 2025] [notice] Child 14492: Acquired the start mutex.
+[Sun Mar 09 18:58:10 2025] [notice] Child 14492: Starting 64 worker threads.
+[Sun Mar 09 18:58:10 2025] [notice] Child 14492: Starting thread to listen on port 80.
+[Sun Mar 09 18:59:28 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 09 18:59:28 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 09 18:59:28 2025] [notice] Parent: Created child process 17620
+[Sun Mar 09 18:59:28 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 09 18:59:28 2025] [notice] Child 17620: Child process is running
+[Sun Mar 09 18:59:28 2025] [debug] mpm_winnt.c(408): Child 17620: Retrieved our scoreboard from the parent.
+[Sun Mar 09 18:59:28 2025] [info] Parent: Duplicating socket 1688 and sending it to child process 17620
+[Sun Mar 09 18:59:28 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 17620
+[Sun Mar 09 18:59:28 2025] [debug] mpm_winnt.c(564): Child 17620: retrieved 1 listeners from parent
+[Sun Mar 09 18:59:28 2025] [notice] Child 17620: Acquired the start mutex.
+[Sun Mar 09 18:59:28 2025] [notice] Child 17620: Starting 64 worker threads.
+[Sun Mar 09 18:59:28 2025] [notice] Child 17620: Starting thread to listen on port 80.
+[Sun Mar 09 19:25:51 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sun Mar 09 19:25:51 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sun Mar 09 19:25:51 2025] [notice] Parent: Created child process 20872
+[Sun Mar 09 19:25:51 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sun Mar 09 19:25:51 2025] [notice] Child 20872: Child process is running
+[Sun Mar 09 19:25:51 2025] [debug] mpm_winnt.c(408): Child 20872: Retrieved our scoreboard from the parent.
+[Sun Mar 09 19:25:51 2025] [info] Parent: Duplicating socket 1704 and sending it to child process 20872
+[Sun Mar 09 19:25:51 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 20872
+[Sun Mar 09 19:25:51 2025] [debug] mpm_winnt.c(564): Child 20872: retrieved 1 listeners from parent
+[Sun Mar 09 19:25:51 2025] [notice] Child 20872: Acquired the start mutex.
+[Sun Mar 09 19:25:51 2025] [notice] Child 20872: Starting 64 worker threads.
+[Sun Mar 09 19:25:51 2025] [notice] Child 20872: Starting thread to listen on port 80.

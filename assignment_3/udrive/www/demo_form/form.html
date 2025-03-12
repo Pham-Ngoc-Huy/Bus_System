@@ -25,6 +25,29 @@
             align-items: left;
             gap: 20px;
         }
+        .data-plot-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .table-container {
+            flex: 1;
+        }
+
+        #plotting {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+        #plotting img {
+            max-width: 2500px;
+            max-height:2000px;
+            height: 650px;
+            width: 1250px;
+            border: 1px solid white;
+        }
 
         table {
             font-family: "Courier New", monospace;
@@ -71,6 +94,7 @@
             padding: 10px;
             border-radius: 10px;
         }
+
     </style>
 </head>
 <body>
@@ -83,17 +107,26 @@
             <label for="yValue">y:</label>
             <input type="number" id="yValue" name="y" required>
             <button type="submit" class="button-19">Add-in</button>
+            <button onclick= "clearData()" class="button-19" style="background-color: red;" style = "box-shadow: 0 2px red">Clear Data</button>
+
         </form>
 
-        <form action="/cgi-bin/uploadnread.pl" method="post" enctype="multipart/form-data">
-            <input type="file" name="file" accept=".txt">
-            <input type="submit" class="button-19" value="Upload & Read">
+        <form id="uploadForm">
+            <label for="file">Choose a .txt file (with [a,b] format):</label>
+            <input type="file" id="file" name="file" accept=".txt" required>
+            <br><br>
+            <button type="button" class="button-19" onclick="uploadFileAndAppendContent()">Upload & Append</button>
         </form>
+        
 
-        <div id="tableContainer"></div>
+        <div class="data-plot-container">
+            <div class="table-container" id="tableContainer"></div>
+            <div id="plotting">
+            </div>
+        </div>
 
         <div id="regressionResults"></div>
-
+ 
         <div>
             <a href="/index.html" class="button-19">HomePage</a>
         </div>
@@ -118,12 +151,54 @@
                 })
                 .catch(error => console.error("Error fetching regression results:", error));
         }
-
+        function loadPlot() {
+            fetch('/cgi-bin/gnuplot.pl') // Trigger gnuplot script
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to generate plot');
+                    }
+                    return fetch('/cgi-bin/display.pl'); // Fetch the generated plot
+                })
+                .then(response => response.blob())
+                .then(blob => {
+                    const imageUrl = URL.createObjectURL(blob);
+                    document.getElementById('plotting').innerHTML = `<img src="${imageUrl}" alt="Regression Plot" style="max-width: 100%; border: 1px solid white;">`;
+                })
+                .catch(error => console.error('Error loading plot:', error));
+        }
+        function clearData(){
+            event?.preventDefault();
+            fetch("/cgi-bin/clear.pl")
+            .then(response => response.text())
+            .then(data => {
+                loadTable();
+                loadRegressionResults();
+                loadPlot(); 
+            })
+            .catch(error=>console.error("Error Clear Data:",error))
+        }
+        
         //add-in file data.txt
+        function uploadFileAndAppendContent() {
+            event?.preventDefault();
+            let formData = new FormData(document.getElementById("uploadForm"));
 
-        function SubmitForm(event) {
+            fetch("/cgi-bin/uploadnread.pl", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.text())
+            .then(() => {
+                loadTable();
+                loadRegressionResults();
+                loadPlot();
+            })
+            .catch(error => console.error("Error uploading file:", error));
+        }
+
+        document.getElementById("inputForm").addEventListener("submit", function(event) {
             event.preventDefault();
-
+            
             let formData = new FormData(event.target);
             fetch("/cgi-bin/comments.pl", {
                 method: "POST",
@@ -133,16 +208,16 @@
             .then(() => {
                 loadTable();
                 loadRegressionResults();
+                loadPlot(); 
                 document.getElementById("xValue").value = "";
                 document.getElementById("yValue").value = "";
             })
             .catch(error => console.error("Error submitting form:", error));
-        }
-
-        document.getElementById("inputForm").addEventListener("submit", SubmitForm);
+        });
         window.onload = function() {
             loadTable();
             loadRegressionResults();
+            loadPlot();
         };
     </script>
 </body>

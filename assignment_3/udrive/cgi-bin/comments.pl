@@ -12,7 +12,6 @@ my $y = $q->param("y");
 
 my $filename = "/www/demo_form/data.txt";
 
-# Ghi dữ liệu vào file (thêm vào cuối)
 if (defined $x && defined $y) {
     open(my $fh, '>>', $filename) or die "Không thể mở file '$filename': $!";
     print $fh "$x,$y\n";

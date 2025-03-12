@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <style>
+        /* General styles */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: whitesmoke;
+            background-image: url('background_image.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            font-family: "Courier New", monospace;
+        }
+
+        /* Header styling */
+        .typing h1 {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 28px;
+            font-weight: bold;
+            color: #0ff0fc;
+            border-right: 3px solid #0ff0fc; /* Cursor effect */
+            letter-spacing: 0.1em;
+            margin: 0;
+            padding: 10px 20px;
+            animation: typing 7s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+        }
+
+        /* Typing animation */
+        @keyframes typing {
+            0% { width: 0; }
+            50% { width: 100%; }
+            60% { width: 100%; }
+            100% { width: 0; }
+        }
+
+        /* Cursor blinking */
+        @keyframes blink-caret {
+            50% { border-color: transparent; }
+        }
+
+        /* Code block */
+        .code-block {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            border-left: 4px solid #0ff0fc;
+            display: inline-block;
+        }
+
+        /* Button styling */
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button-19 {
+            appearance: button;
+            background-color: #1899d6;
+            border: none;
+            border-radius: 30px;
+            box-shadow: 0 4px #126a9c;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 25px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+        }
+
+        .button-19:hover {
+            background-color: #1cb0f6;
+            box-shadow: 0 2px #0c4e75;
+            transform: translateY(-2px);
+        }
+
+        .button-19:active {
+            box-shadow: 0 0 #0c4e75;
+            transform: translateY(2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="code-block">
+        <div class="typing">
+            <h1>Welcome To The Regression Calculator !!!</h1>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <a href="/demo_form/form.html" class="button-19">START!</a>
+    </div>
+</body>
+</html>

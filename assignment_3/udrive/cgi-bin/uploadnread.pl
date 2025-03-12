@@ -1,46 +1,47 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-use CGI;
 
-# Define upload directory
-my $upload_dir = "/www/demo_form";
-my $data_file = "$upload_dir/data.txt";
+print "Content-Type: text/html\n\n";
 
-# Create CGI object
-my $cgi = CGI->new;
+my $content_length = $ENV{'CONTENT_LENGTH'};
+my $query_string = '';
+my $output_file = "/www/demo_form/data.txt";
 
-# Print HTTP header
-print $cgi->header(-type => "text/html", -charset => "UTF-8");
-print "<html><head><title>File Upload</title></head><body>";
-print "<h1>Upload Status</h1>";
 
-# Get uploaded file handle
-my $filehandle = $cgi->upload('file');
-my $orig_filename = $cgi->param('file');  # Get original filename
+read(STDIN, $query_string, $content_length);
 
-if ($filehandle && $orig_filename) {
-    # Open data.txt in append mode
-    open(my $fh, '>>', $data_file) or die "Cannot open '$data_file': $!";
-    
-    # Append uploaded file content to data.txt
-    while (<$filehandle>) {
-        print $fh $_;
+my ($boundary) = $query_string =~ /boundary=(.+)/;
+$boundary = "--$boundary";
+
+my @parts = split(/$boundary/, $query_string);
+
+my $filename = '';
+my $content = '';
+
+foreach my $part (@parts) {
+    if ($part =~ /filename="([^"]+)"/) {
+        $filename = $1;
     }
+
+    if ($part =~ /Content-Type:\s*text\/plain\s*\r?\n\r?\n(.*)/s) {
+        $content = $1;
+    }
+}
+
+if ($filename && $filename =~ /\.txt$/) {
+    open(my $fh, '>>', $output_file) or die "Cannot open $output_file: $!";
+    print $fh "$content", ($content =~ /\n$/ ? "" : "\n");
     close($fh);
 
-    print "<p>File uploaded successfully and content appended to <b>data.txt</b></p>";
+    open(my $rfh, '<', $output_file) or die "Cannot read $output_file: $!";
+    my @lines = <$rfh>;
+    close($rfh);
+
+    print "<h2>Uploaded & Appended to data.txt</h2>";
+    print "<pre>", join('', @lines), "</pre>";
 } else {
-    print "<p style='color: red;'>No file uploaded. Please try again.</p>";
+    print "<p style='color:red;'>Error: Please upload a valid .txt file.</p>";
 }
 
-# Display the current content of data.txt
-print "<h2>Updated File Content:</h2><pre>";
-open(my $fh, '<', $data_file) or die "Cannot open file for reading: $!";
-while (<$fh>) {
-    print $_;
-}
-close($fh);
-print "</pre>";
-
-print "</body></html>";
+exit;
