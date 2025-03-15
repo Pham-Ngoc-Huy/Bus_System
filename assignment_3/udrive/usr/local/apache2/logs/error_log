@@ -1790,3 +1790,142 @@
 [Wed Mar 12 22:44:04 2025] [error] [client 127.0.0.1] "/www/demo_form/plot_script.plt" line 6: invalid expression \r, referer: http://localhost/demo_form/form.html
 [Wed Mar 12 22:44:04 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
 [Wed Mar 12 22:44:04 2025] [error] [client 127.0.0.1] Failed to run Gnuplot:  at Z:/cgi-bin/gnuplot.pl line 27.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:09 2025] [notice] Apache/2.2.9 (Win32) configured -- resuming normal operations
+[Sat Mar 15 11:01:09 2025] [notice] Server built: Jun 13 2008 04:04:59
+[Sat Mar 15 11:01:09 2025] [notice] Parent: Created child process 30976
+[Sat Mar 15 11:01:09 2025] [debug] mpm_winnt.c(487): Parent: Sent the scoreboard to the child
+[Sat Mar 15 11:01:09 2025] [notice] Child 30976: Child process is running
+[Sat Mar 15 11:01:09 2025] [debug] mpm_winnt.c(408): Child 30976: Retrieved our scoreboard from the parent.
+[Sat Mar 15 11:01:09 2025] [info] Parent: Duplicating socket 1692 and sending it to child process 30976
+[Sat Mar 15 11:01:09 2025] [debug] mpm_winnt.c(605): Parent: Sent 1 listeners to child 30976
+[Sat Mar 15 11:01:09 2025] [debug] mpm_winnt.c(564): Child 30976: retrieved 1 listeners from parent
+[Sat Mar 15 11:01:09 2025] [notice] Child 30976: Acquired the start mutex.
+[Sat Mar 15 11:01:09 2025] [notice] Child 30976: Starting 64 worker threads.
+[Sat Mar 15 11:01:09 2025] [notice] Child 30976: Starting thread to listen on port 80.
+[Sat Mar 15 11:01:18 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] plot  + *x with lines title 'y =  + *x'\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1]         ^\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] "/www/demo_form/plot_script.plt" line 6: invalid expression \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:19 2025] [error] [client 127.0.0.1] Failed to run Gnuplot:  at Z:/cgi-bin/gnuplot.pl line 27.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:25 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:25 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] plot  + *x with lines title 'y =  + *x'\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1]         ^\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] "/www/demo_form/plot_script.plt" line 6: invalid expression \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:26 2025] [error] [client 127.0.0.1] Failed to run Gnuplot:  at Z:/cgi-bin/gnuplot.pl line 27.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:32 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:32 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:33 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:35 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:35 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:36 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:38 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:38 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:39 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:41 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:41 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:42 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:44 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:44 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:45 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:49 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:49 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:50 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:54 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:54 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:01:55 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:00 2025] [error] [client 127.0.0.1] Use of uninitialized value $boundary in concatenation (.) or string at Z:/cgi-bin/uploadnread.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:00 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:02 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:05 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] plot  + *x with lines title 'y =  + *x'\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1]         ^\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] "/www/demo_form/plot_script.plt" line 6: invalid expression \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:06 2025] [error] [client 127.0.0.1] Failed to run Gnuplot:  at Z:/cgi-bin/gnuplot.pl line 27.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:14 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:14 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] plot  + *x with lines title 'y =  + *x'\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1]         ^\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] "/www/demo_form/plot_script.plt" line 6: invalid expression \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:16 2025] [error] [client 127.0.0.1] Failed to run Gnuplot:  at Z:/cgi-bin/gnuplot.pl line 27.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:17 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:17 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:18 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:21 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:21 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:22 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:22 2025] [error] [client 127.0.0.1] Use of uninitialized value $boundary in concatenation (.) or string at Z:/cgi-bin/uploadnread.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:23 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:24 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:29 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:29 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:30 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:30 2025] [error] [client 127.0.0.1] Use of uninitialized value $boundary in concatenation (.) or string at Z:/cgi-bin/uploadnread.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:30 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:31 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:32 2025] [error] [client 127.0.0.1] Use of uninitialized value $boundary in concatenation (.) or string at Z:/cgi-bin/uploadnread.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:32 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:33 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:34 2025] [error] [client 127.0.0.1] Use of uninitialized value $boundary in concatenation (.) or string at Z:/cgi-bin/uploadnread.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:34 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:35 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:42 2025] [error] [client 127.0.0.1] print() on closed filehandle STDOUT at Z:/cgi-bin/comments.pl line 34., referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] "my" variable $output_png masks earlier declaration in same scope at Z:/cgi-bin/gnuplot.pl line 30.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in chomp at Z:/cgi-bin/gnuplot.pl line 15.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 21.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Use of uninitialized value $a in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Use of uninitialized value $b in concatenation (.) or string at Z:/cgi-bin/gnuplot.pl line 24.\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] plot  + *x with lines title 'y =  + *x'\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1]         ^\r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] "/www/demo_form/plot_script.plt" line 6: invalid expression \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] \r, referer: http://localhost/demo_form/form.html
+[Sat Mar 15 11:02:43 2025] [error] [client 127.0.0.1] Failed to run Gnuplot:  at Z:/cgi-bin/gnuplot.pl line 27.\r, referer: http://localhost/demo_form/form.html
