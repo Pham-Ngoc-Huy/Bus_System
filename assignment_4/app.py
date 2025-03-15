@@ -22,7 +22,6 @@ class App:
         self.app.add_url_rule("/clear_data", "clear_data", self.clear_data, methods=["POST"])
     
     def perform_regression(self):
-        """Recreate Regression instance and compute new values after data update."""
         self.regression_instance = Regression(self.db_source)
         self.regression_instance.read_file()
         self.regression_instance.data_type_config()
@@ -32,7 +31,6 @@ class App:
         self.regression_instance.plot_regression()
 
     def add_point(self):
-        """Add a new (x, y) point to the data source and update regression."""
         if request.method == "POST":
             try:
                 x = float(request.form["x"])
@@ -48,7 +46,6 @@ class App:
 
 
     def upload_file(self):
-        """Upload a new data file and update regression."""
         if request.method == "POST":
             if "file" not in request.files:
                 return "No file uploaded", 400
@@ -74,7 +71,6 @@ class App:
         return self.render_results()
 
     def clear_data(self):
-        """Clear all stored data and reset the regression model."""
         open(self.db_source, 'w').close()
         plot_path = os.path.join("static", "regression_plot.png")
         if os.path.exists(plot_path):

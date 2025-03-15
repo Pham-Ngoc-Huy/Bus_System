@@ -1,4 +1,14 @@
-### HOW TO USE
+### HOW TO USE 
+
+## 🔴⚠️ NOTE: MUST INSTALL PYTHON FIRST
+```bash
+python --version
+```
+or
+```bash
+python3 --version
+```
+**If there is no output, Python is not installed!** Install it from [Python’s official website](https://www.python.org/downloads/).
 
 ## 1️⃣ Install Virtual Environment
 ```bash
@@ -93,7 +103,6 @@ project_folder/
 ## 🎨 Frontend (HTML, JavaScript & CSS)
 - **JavaScript**: Handles fetching and displaying data on HTML.
 - **CSS**: Used for styling and improving UI aesthetics.
-
+- **HTML**: Create the base webpage for user interacting
 ---
 ### ✅ Now you're ready to run and use the application!
-
