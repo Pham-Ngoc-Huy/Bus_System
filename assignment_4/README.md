@@ -1,59 +1,99 @@
-### HOW TO USE 
-## Install virtual environment
+### HOW TO USE
+
+## 1️⃣ Install Virtual Environment
+```bash
 pip install virtualenv
-## Create virtual environment
-python3 -m .venv venv
-## Activate the virtual environment
-# Windows -> launch with powershell or in vscode (Crtl + shift + ~)
-. /.venv/Scripts/Activate.ps1
-# Windows -> command prompt
-.venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
-## Installation package needed
+```
+
+## 2️⃣ Create Virtual Environment
+```bash
+python3 -m venv .venv
+```
+
+## 3️⃣ Activate the Virtual Environment
+### Windows
+- **PowerShell (or VS Code terminal: `Ctrl + Shift + ~`)**
+  ```powershell
+  .\.venv\Scripts\Activate.ps1
+  ```
+- **Command Prompt (cmd.exe)**
+  ```cmd
+  .venv\Scripts\activate
+  ```
+### Mac/Linux
+```bash
+source .venv/bin/activate
+```
+
+## 4️⃣ Install Required Packages
+```bash
 pip install -r requirements.txt
+```
 
-## Run the main.py -> to host the website -> click on the url to access
-python3 main.py or python main.py
+## 5️⃣ Run the Application
+To host the website, run:
+```bash
+python3 main.py  # or python main.py
+```
+Click on the generated URL to access the web application.
 
-## File structure and purposes:
-dbsource: place of database 
----data.txt: datasource
-static: file image and css file for html
----style.css
----regression_plot.png
-templates: html and javascript inside work for the main website
----upload.html
-uploads: all the file uploads will be stored here -> erase manually
---namefile.txt (just upload the file with structure: x,y)
-app.py: settings app
-regression.py: settings calculation and plotting regression
-main.py: run as a package for all files
-README.md: guidlines and tutorials
-requirement.txt: all the libraries need to installed
+---
+## 📁 File Structure & Purpose
+```
+project_folder/
+│── dbsource/          # Stores database source files
+│   ├── data.txt       # Data source file
+│
+│── static/            # Stores static files (CSS & images)
+│   ├── style.css      # CSS for HTML design
+│   ├── regression_plot.png  # Regression plot image
+│
+│── templates/         # HTML and JavaScript files for the website
+│   ├── upload.html    # Upload page
+│
+│── uploads/           # Directory for uploaded files (must be cleared manually)
+│   ├── namefile.txt   # Example file structure: x,y
+│
+│── app.py             # Flask app settings & configuration
+│── regression.py      # Handles regression calculations & plotting
+│── main.py            # Main entry point to run the app
+│── README.md          # Guidelines & tutorials
+│── requirements.txt   # List of dependencies
+```
 
-## Function:
-# Regression Calculation -> regression.py
-- OOP structure for calculation a and b 
-- plotting the regression line and save the image.png at folder:static
-- save the result for html display
+---
+## 🔧 Functionality
 
-# App Starting -> app.py
-- App settings and configuration
-    - Settings the server Flask
-    - Settings the calling rule for folder path or file path
-    - Call the regression.py -> preparing for calculation
-- Input data
-    - Input the data field
-    - Read and append the data into database source at folder: dbsource with file: data.txt (just simple strorage with txt file)
-- Upload file:
-    - Store file upload at folder: uploads
-    - Read and append the data inside file.txt into database source at folder: dbsource with file: data.txt
-- Clear the data 
-    - Clear all the data in dbsource and plotting image
-- Render result
-    - Save the result to display on html
+### 1️⃣ Regression Calculation (`regression.py`)
+- Implements an **OOP-based** approach for calculating regression coefficients (`a`, `b`).
+- Plots the regression line and saves the image (`static/regression_plot.png`).
+- Stores calculation results for HTML display.
 
-# HTML (javascript involved) and CSS (just for design)
-- script parts: maked by javascript: (main using javascript here just about fetch the data -> to display on html only not further usage)
+### 2️⃣ App Configuration (`app.py`)
+- **Flask server settings**
+- Defines URL routing and folder paths
+- Calls `regression.py` for regression calculations
+
+### 3️⃣ Data Input
+- Accepts data manually through input fields
+- Saves data in `dbsource/data.txt` (simple text-based storage)
+
+### 4️⃣ File Upload
+- Stores uploaded files in `uploads/`
+- Reads & appends content from uploaded files into `dbsource/data.txt`
+
+### 5️⃣ Data Clearing
+- Clears stored data in `dbsource/`
+- Deletes existing regression plot
+
+### 6️⃣ Render Results
+- Saves results for HTML display
+
+---
+## 🎨 Frontend (HTML, JavaScript & CSS)
+- **JavaScript**: Handles fetching and displaying data on HTML.
+- **CSS**: Used for styling and improving UI aesthetics.
+
+---
+### ✅ Now you're ready to run and use the application!
 
