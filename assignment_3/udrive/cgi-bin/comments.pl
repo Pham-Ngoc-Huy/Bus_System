@@ -21,7 +21,7 @@ if (defined $x && defined $y) {
 print "<table border='1' style='width: 50%; margin: auto; text-align: center;'>";
 print "<tr><th>Value X</th><th>Value Y</th></tr>";
 
-open(my $fh, '<', $filename) or die "Không thể mở file '$filename': $!";
+open(my $fh, '<', $filename);
 while (my $line = <$fh>) {
     chomp $line;
     my ($x_val, $y_val) = split(/,/, $line);

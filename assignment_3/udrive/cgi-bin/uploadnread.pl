@@ -30,11 +30,11 @@ foreach my $part (@parts) {
 }
 
 if ($filename && $filename =~ /\.txt$/) {
-    open(my $fh, '>>', $output_file) or die "Cannot open $output_file: $!";
+    open(my $fh, '>>', $output_file);
     print $fh "$content", ($content =~ /\n$/ ? "" : "\n");
     close($fh);
 
-    open(my $rfh, '<', $output_file) or die "Cannot read $output_file: $!";
+    open(my $rfh, '<', $output_file);
     my @lines = <$rfh>;
     close($rfh);
 
