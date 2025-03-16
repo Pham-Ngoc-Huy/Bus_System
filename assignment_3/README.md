@@ -226,3 +226,13 @@ window.onload = function() {
     loadPlot();
 };
 ```
+
+## Result:
+### INTRO PAGE
+![alt text](image.png)
+
+### INPUT PAGE
+![alt text](image-1.png)
+
+### WITH DATA
+![alt text](image-2.png)

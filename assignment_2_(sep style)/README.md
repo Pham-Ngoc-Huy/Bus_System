@@ -79,3 +79,5 @@ p {
 - Configuration file adjusted.
 - You can verify settings in: `/usr/local/apache2/conf/httpd.conf`.
 
+## Result:
+![alt text](image.png)

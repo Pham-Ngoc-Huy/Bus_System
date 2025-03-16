@@ -106,3 +106,6 @@ project_folder/
 - **HTML**: Create the base webpage for user interacting
 ---
 ### ✅ Now you're ready to run and use the application!
+
+### SAMPLE RESULT
+![alt text](image.png)
