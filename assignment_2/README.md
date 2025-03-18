@@ -23,5 +23,6 @@
 - Configuration file adjusted.
 - You can verify settings in: `/usr/local/apache2/conf/httpd.conf`.
 
-## Result:
+## Result Page:
 ![alt text](image-1.png)
+

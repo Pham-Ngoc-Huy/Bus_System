@@ -81,3 +81,12 @@ p {
 
 ## Result:
 ![alt text](image.png)
+
+## Connection WireShark
+![alt text](image-1.png)
+
+### Explanation  
+This Wireshark capture shows an HTTP transaction between a client (`10.111.1.100`) and a server (`10.111.1.52`). 
+The client first requests the main webpage (`GET /`), and the server responds with an `HTTP/1.1 200 OK`, delivering the HTML content. 
+The client then makes additional requests for resources like `styles.css` and `hehe.png`, and the server responds accordingly. 
+This sequence represents a typical web page load, where a browser retrieves the main HTML file along with its dependencies, such as stylesheets and images.

@@ -236,3 +236,12 @@ window.onload = function() {
 
 ### WITH DATA
 ![alt text](image-2.png)
+
+### EXPLAINATION
+![alt text](image-3.png)
+I just provide the connection until the intro page only - i want to this for illustrating only
+This Wireshark capture shows an HTTP transaction between a client (`10.111.1.100`) and a server (`10.111.1.52`). 
+The client first requests the main webpage (`GET /`), and the server responds with an `HTTP/1.1 200 OK`, delivering the HTML content. 
+The client then requests additional resources such as `background_image.jpg`, `demo_form/form.html`, `demo_form/form.css`, and `perl_form.css`, with the server responding accordingly. 
+Additionally, there is a request to a CGI script (`process_form.pl`) with form data parameters, indicating that the user submitted a form. 
+This sequence represents a typical web page load with form interaction, where a browser retrieves HTML, images, stylesheets, and submits user input to the server for processing.
